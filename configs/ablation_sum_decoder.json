@@ -1,0 +1,6 @@
+{
+  "step": 9.0,
+  "witness_gating_enabled": true,
+  "robust_consensus_enabled": false,
+  "payload_coset_optimization_enabled": true
+}

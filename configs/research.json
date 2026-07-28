@@ -1,0 +1,17 @@
+{
+  "step": 9.0,
+  "eta": 0.07,
+  "seed": 2026,
+  "closure_rounds": 2,
+  "payload_coset_optimization_enabled": true,
+  "gain_normalization_enabled": true,
+  "witness_gating_enabled": true,
+  "witness_log_sigma": 0.50,
+  "witness_floor": 0.30,
+  "robust_consensus_enabled": false,
+  "consensus_median_weight": 0.70,
+  "consensus_mean_weight": 0.30,
+  "erasure_threshold": 0.18,
+  "candidate_search_enabled": true,
+  "resolution_adaptive_replicas_enabled": false
+}
