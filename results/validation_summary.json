@@ -1,0 +1,43 @@
+{
+  "method": "Invariant-Relational DCT-Schur Watermarking",
+  "version": "3.1.0",
+  "tests_passed": 13,
+  "clean_13host": {
+    "host_count": 13,
+    "mean_psnr_db": 50.37986944218268,
+    "minimum_psnr_db": 50.31224007594147,
+    "mean_clean_nc": 1.0,
+    "all_clean_exact": true,
+    "all_invariants_preserved": true,
+    "mean_coset_energy_ratio": 0.5867707206869128
+  },
+  "decoder_ablation": {
+    "original_mean_nc": 0.8365649687511655,
+    "witness_mean_nc": 0.837766496825331,
+    "original_occlusion_nc": 0.966887139540961,
+    "witness_occlusion_nc": 0.9979553988961708
+  },
+  "restoration_enabled_subset": {
+    "count": 30,
+    "original_mean_nc": 0.9140551651558759,
+    "witness_mean_nc": 0.9145376098228739
+  },
+  "repository_audit": {
+    "passed": true,
+    "single_proposal": true,
+    "proposal_ids": [
+      "dct_schur_invariant_relational"
+    ],
+    "baselines_complete": true,
+    "baseline_count": 16,
+    "no_src_layout": true,
+    "folders_over_limit": {},
+    "maximum_files_in_folder": 13
+  },
+  "baseline_validation": {
+    "registered_baselines": 16,
+    "clean_smoke_passed": 16,
+    "minimum_clean_nc": 0.9946698289781035,
+    "unified_method_count": 17
+  }
+}

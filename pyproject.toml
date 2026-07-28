@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "invariant-relational-dct-schur"
+version = "3.1.0"
+description = "Invariant-relational DCT-Schur watermarking with modular published baseline benchmarking"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=2.0",
+  "scipy>=1.13",
+  "Pillow>=10.0",
+  "scikit-image>=0.24",
+  "opencv-python-headless>=4.8",
+  "cryptography>=42.0"
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+dct-schur = "dct_schur.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["dct_schur*", "baselines*", "benchmarking*", "pipelines*", "evaluation*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"
+
+[tool.setuptools.package-data]
+baselines = ["evidence/*.yaml"]

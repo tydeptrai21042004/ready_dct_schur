@@ -1,0 +1,220 @@
+{
+  "count": 30,
+  "original_mean": 0.9140551651558759,
+  "witness_mean": 0.9145376098228739,
+  "wins": 3,
+  "ties": 17,
+  "losses": 10,
+  "rows": [
+    {
+      "host": "lenna.bmp",
+      "attack": "none__clean",
+      "category": "clean",
+      "original": 1.0,
+      "witness": 1.0
+    },
+    {
+      "host": "lenna.bmp",
+      "attack": "jpeg__q90",
+      "category": "compression",
+      "original": 0.9997571341797822,
+      "witness": 0.9997571341797822
+    },
+    {
+      "host": "lenna.bmp",
+      "attack": "noise_gaussian__sigma1",
+      "category": "noise",
+      "original": 1.0,
+      "witness": 1.0
+    },
+    {
+      "host": "lenna.bmp",
+      "attack": "filter_gaussian__radius0p5",
+      "category": "filtering",
+      "original": 1.0,
+      "witness": 1.0
+    },
+    {
+      "host": "lenna.bmp",
+      "attack": "photometric_brightness__factor0p95",
+      "category": "photometric",
+      "original": 1.0,
+      "witness": 1.0
+    },
+    {
+      "host": "lenna.bmp",
+      "attack": "geometric_resize__factor0p9",
+      "category": "geometric",
+      "original": 0.9997571341797822,
+      "witness": 0.9997571341797822
+    },
+    {
+      "host": "lenna.bmp",
+      "attack": "jpeg__q95",
+      "category": "compression",
+      "original": 0.9997571341797822,
+      "witness": 0.9997571341797822
+    },
+    {
+      "host": "lenna.bmp",
+      "attack": "jpeg__q80",
+      "category": "compression",
+      "original": 0.9995143273433708,
+      "witness": 0.9995143273433708
+    },
+    {
+      "host": "lenna.bmp",
+      "attack": "jpeg__q70",
+      "category": "compression",
+      "original": 0.993922446067282,
+      "witness": 0.993441855878355
+    },
+    {
+      "host": "lenna.bmp",
+      "attack": "jpeg__q50",
+      "category": "compression",
+      "original": 0.9147627960758102,
+      "witness": 0.9249058146435303
+    },
+    {
+      "host": "lenna.bmp",
+      "attack": "jpeg__q30",
+      "category": "compression",
+      "original": 0.6615965451853215,
+      "witness": 0.5861601893014203
+    },
+    {
+      "host": "lenna.bmp",
+      "attack": "webp__q90",
+      "category": "compression",
+      "original": 0.9995143273433708,
+      "witness": 0.9992713435412108
+    },
+    {
+      "host": "lenna.bmp",
+      "attack": "webp__q70",
+      "category": "compression",
+      "original": 0.7590775557207443,
+      "witness": 0.7704865061989862
+    },
+    {
+      "host": "lenna.bmp",
+      "attack": "webp__q50",
+      "category": "compression",
+      "original": 0.6417476484291269,
+      "witness": 0.6156281818332457
+    },
+    {
+      "host": "lenna.bmp",
+      "attack": "jpeg2000__layer7",
+      "category": "compression",
+      "original": 0.9854599231542323,
+      "witness": 0.9847370156658954
+    },
+    {
+      "host": "baboon.bmp",
+      "attack": "none__clean",
+      "category": "clean",
+      "original": 1.0,
+      "witness": 1.0
+    },
+    {
+      "host": "baboon.bmp",
+      "attack": "jpeg__q90",
+      "category": "compression",
+      "original": 1.0,
+      "witness": 1.0
+    },
+    {
+      "host": "baboon.bmp",
+      "attack": "noise_gaussian__sigma1",
+      "category": "noise",
+      "original": 1.0,
+      "witness": 1.0
+    },
+    {
+      "host": "baboon.bmp",
+      "attack": "filter_gaussian__radius0p5",
+      "category": "filtering",
+      "original": 0.9997572520901243,
+      "witness": 0.9997572520901243
+    },
+    {
+      "host": "baboon.bmp",
+      "attack": "photometric_brightness__factor0p95",
+      "category": "photometric",
+      "original": 1.0,
+      "witness": 1.0
+    },
+    {
+      "host": "baboon.bmp",
+      "attack": "geometric_resize__factor0p9",
+      "category": "geometric",
+      "original": 0.9944222689458344,
+      "witness": 0.9934600797810461
+    },
+    {
+      "host": "baboon.bmp",
+      "attack": "jpeg__q95",
+      "category": "compression",
+      "original": 1.0,
+      "witness": 1.0
+    },
+    {
+      "host": "baboon.bmp",
+      "attack": "jpeg__q80",
+      "category": "compression",
+      "original": 0.9997572520901243,
+      "witness": 0.9997572520901243
+    },
+    {
+      "host": "baboon.bmp",
+      "attack": "jpeg__q70",
+      "category": "compression",
+      "original": 0.9975691553485831,
+      "witness": 0.9975691553485831
+    },
+    {
+      "host": "baboon.bmp",
+      "attack": "jpeg__q50",
+      "category": "compression",
+      "original": 0.96252324935467,
+      "witness": 0.9613037650502276
+    },
+    {
+      "host": "baboon.bmp",
+      "attack": "jpeg__q30",
+      "category": "compression",
+      "original": 0.6334167173460539,
+      "witness": 0.6311931488142681
+    },
+    {
+      "host": "baboon.bmp",
+      "attack": "webp__q90",
+      "category": "compression",
+      "original": 0.9992716973295172,
+      "witness": 0.9992716973295172
+    },
+    {
+      "host": "baboon.bmp",
+      "attack": "webp__q70",
+      "category": "compression",
+      "original": 0.8760151356653728,
+      "witness": 0.8744528900296584
+    },
+    {
+      "host": "baboon.bmp",
+      "attack": "webp__q50",
+      "category": "compression",
+      "original": 0.5222858305078442,
+      "witness": 0.6340275970406762
+    },
+    {
+      "host": "baboon.bmp",
+      "attack": "jpeg2000__layer7",
+      "category": "compression",
+      "original": 0.48176942413954654,
+      "witness": 0.47191882016662107
+    }
+  ]
+}

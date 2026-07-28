@@ -1,0 +1,50 @@
+{
+  "original": {
+    "mean": 0.8365649687511655,
+    "categories": {
+      "clean": 1.0,
+      "compression": 0.8819755443510325,
+      "noise": 0.8970124856615841,
+      "filtering": 0.7311514978352098,
+      "photometric": 0.9806505572657849,
+      "geometric": 0.6723541056490131,
+      "occlusion": 0.966887139540961
+    }
+  },
+  "witness_soft": {
+    "mean": 0.8374250056767879,
+    "categories": {
+      "clean": 1.0,
+      "compression": 0.8808896945228166,
+      "noise": 0.8984142791404282,
+      "filtering": 0.7287854581918048,
+      "photometric": 0.9808024409547795,
+      "geometric": 0.6722098839869997,
+      "occlusion": 0.984757052031665
+    }
+  },
+  "witness_mid": {
+    "mean": 0.837766496825331,
+    "categories": {
+      "clean": 1.0,
+      "compression": 0.8790159144307428,
+      "noise": 0.8968805628564192,
+      "filtering": 0.7260554922855129,
+      "photometric": 0.9808141414711256,
+      "geometric": 0.6738543250464571,
+      "occlusion": 0.9979553988961708
+    }
+  },
+  "robust_soft": {
+    "mean": 0.8340927271599704,
+    "categories": {
+      "clean": 1.0,
+      "compression": 0.8796343151146823,
+      "noise": 0.8958915376220568,
+      "filtering": 0.7319059549841425,
+      "photometric": 0.9792483416687203,
+      "geometric": 0.6713599133792371,
+      "occlusion": 0.9444160610706013
+    }
+  }
+}

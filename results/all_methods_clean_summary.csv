@@ -1,0 +1,18 @@
+method_id,display_name,method_kind,blindness_tier,fidelity_tier,payload_bits,trial_count,successful_trials,mean_psnr,mean_clean_nc,mean_attacked_nc
+dct_schur_invariant_relational,Invariant-Relational DCT-Schur,proposal,key_assisted_blind,proposal,4096,1,1,50.38615410342972,1.0,1.0
+dct_dm_qim_chen2001_blind,Chen-Wornell 2001 | DCT DM QIM | Blind,baseline,blind,paper_modulation_common_image_adapter,4096,1,1,43.85987356082542,1.0,1.0
+dct_stdm_qim_chen2001_blind,Chen-Wornell 2001 | DCT STDM QIM | Blind,baseline,blind,paper_modulation_common_image_adapter,4096,1,1,45.728380218971125,1.0,1.0
+dct_iss_malvar2003_blind,Malvar-Florencio 2003 | DCT ISS | Blind,baseline,blind,paper_modulation_common_image_adapter,4096,1,1,46.992239303932294,1.0,1.0
+dct_ca_qim_mao2024_semiblind,Mao 2024 | DCT CA QIM A2 | Semi-blind,baseline,semi_blind,paper_core_common_image_adapter,4096,1,1,45.08583234824918,1.0,1.0
+dct_spread_spectrum_cox1997_nonblind,Cox 1997 | DCT SPREAD SPECTRUM | Non-blind,baseline,non_blind,paper_core_informed_binary_sign_adapter,4096,1,1,35.059014318905035,0.9997572520901243,0.9997572520901243
+dct_dew_langelaar2001_blind,Langelaar 2001 | DCT DEW | Blind,baseline,blind,paper_core_decoded_frame_DCT_adapter,256,1,1,35.07997492929927,0.9999999999999999,0.9999999999999999
+dwt_entropy_kumar2021_nonblind,Kumar-Singh 2021 | DWT ENTROPY ALPHA BLENDING | Non-blind,baseline,non_blind,paper_guided_adaptation,4096,1,1,51.80421438097931,1.0,1.0
+dwt_qr_fa_guo2017_keyassisted,Guo 2017 | DWT QR FIREFLY | Key-assisted blind,baseline,key_assisted_blind,paper_guided_implementation,4096,1,1,51.141103565318915,1.0,1.0
+dwt_hessenberg_fwa_gaata2022_keyassisted,Gaata 2022 | DWT HESSENBERG FIREWORKS | Key-assisted blind,baseline,key_assisted_blind,major_algorithm_adaptation,4096,1,1,51.36866238681542,0.9997572520901243,0.9997572520901243
+dwt_hessenberg_svd_paper2025_semiblind,DWT-HD-SVD 2025 | DWT HESSENBERG SVD | Semi-blind,baseline,semi_blind,paper_guided_adaptation,4096,1,1,55.61869634453495,0.9946698289781035,0.9946698289781035
+hessenberg_nha2023_blind,Nha 2023 | HESSENBERG QUANTIZATION | Blind,baseline,blind,common_payload_adaptation,4096,1,1,50.69135534125445,1.0,1.0
+dwt_svd_roy2018_semiblind,Roy 2018 | DWT SVD | Semi-blind,baseline,semi_blind,formula_aligned_adaptation,4096,1,1,41.680144961124846,1.0,1.0
+dwt_wht_svd_kumar2024_semiblind,Kumar et al. 2024 | DWT_WHT SVD | Semi-blind,baseline,semi_blind,paper_guided_implementation,4096,1,1,38.285116062002324,1.0,1.0
+qwt_qsvd_zhang2022_blind,Zhang 2022 | QWT QSVD | Blind,baseline,blind,paper_core_common_payload_adapter,4096,1,1,43.18417874156794,0.9970859640602237,0.9970859640602237
+qwt_qsvd_zhang2022_semiblind,Zhang 2022 | QWT QSVD | Semi-blind,baseline,semi_blind,paper_core_common_payload_adapter,4096,1,1,43.18417874156794,0.9997571341797822,0.9997571341797822
+iwt_svd_qim_zhu2021_blind,Zhu 2021 | IWT SVD QIM | Blind,baseline,blind,conceptual_iwt_svd_qim_adapter,4096,1,1,46.329825899979475,1.0,1.0

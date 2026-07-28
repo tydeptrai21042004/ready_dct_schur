@@ -1,0 +1,106 @@
+{
+  "single_proposal": true,
+  "proposal_ids": [
+    "dct_schur_invariant_relational"
+  ],
+  "baseline_count": 16,
+  "baseline_ids": [
+    "dct_dm_qim_chen2001_blind",
+    "dct_stdm_qim_chen2001_blind",
+    "dct_iss_malvar2003_blind",
+    "dct_ca_qim_mao2024_semiblind",
+    "dct_spread_spectrum_cox1997_nonblind",
+    "dct_dew_langelaar2001_blind",
+    "dwt_entropy_kumar2021_nonblind",
+    "dwt_qr_fa_guo2017_keyassisted",
+    "dwt_hessenberg_fwa_gaata2022_keyassisted",
+    "dwt_hessenberg_svd_paper2025_semiblind",
+    "hessenberg_nha2023_blind",
+    "dwt_svd_roy2018_semiblind",
+    "dwt_wht_svd_kumar2024_semiblind",
+    "qwt_qsvd_zhang2022_blind",
+    "qwt_qsvd_zhang2022_semiblind",
+    "iwt_svd_qim_zhu2021_blind"
+  ],
+  "baselines_complete": true,
+  "removed_proposal_paths": [],
+  "no_src_layout": true,
+  "max_files_per_folder": 100,
+  "folders_over_limit": {},
+  "folder_file_counts": {
+    ".": 6,
+    "benchmarking": 7,
+    "docs": 7,
+    "tests": 8,
+    "baselines": 5,
+    "dct_schur": 9,
+    "evaluation": 2,
+    "configs": 5,
+    "pipelines": 11,
+    "results": 10,
+    "examples": 2,
+    "pipelines/__pycache__": 11,
+    "data/watermark": 2,
+    "data/host": 13,
+    "evaluation/__pycache__": 2,
+    "evaluation/attacks": 4,
+    "evaluation/attacks/__pycache__": 4,
+    "dct_schur/math": 7,
+    "dct_schur/__pycache__": 9,
+    "dct_schur/engine": 5,
+    "dct_schur/transport": 3,
+    "dct_schur/provenance": 4,
+    "dct_schur/provenance/__pycache__": 4,
+    "dct_schur/transport/__pycache__": 3,
+    "dct_schur/engine/__pycache__": 5,
+    "dct_schur/math/__pycache__": 7,
+    "baselines/evidence": 7,
+    "baselines/__pycache__": 5,
+    "baselines/common": 1,
+    "baselines/vendor": 1,
+    "baselines/vendor/__pycache__": 1,
+    "baselines/vendor/dwt_hess_fwa": 7,
+    "baselines/vendor/dwt_hess_fwa/__pycache__": 5,
+    "baselines/implementations/transform": 10,
+    "baselines/implementations/dct": 7,
+    "baselines/implementations/dct/__pycache__": 7,
+    "baselines/implementations/transform/__pycache__": 10,
+    "baselines/common/transform": 12,
+    "baselines/common/__pycache__": 1,
+    "baselines/common/dct": 11,
+    "baselines/common/dct/__pycache__": 9,
+    "baselines/common/transform/__pycache__": 11,
+    "benchmarking/__pycache__": 7
+  },
+  "philosophy": {
+    "name": "Invariant-Relational DCT-Schur Watermarking",
+    "thesis": "Preserve spectral identity, inscribe information in relational degrees of freedom, and use preserved identity as a witness during recovery.",
+    "principles": [
+      {
+        "name": "Identity before inscription",
+        "mathematical_form": "T = D + N; preserve D = diag(lambda_1,...,lambda_4)",
+        "implementation_rule": "Never modify the virtual Schur diagonal; embed only in strict-upper couplings.",
+        "real_world_meaning": "A media asset should retain a stable structural identity while carrying provenance."
+      },
+      {
+        "name": "Relations carry meaning",
+        "mathematical_form": "n* = n + H^T(t-Hn)",
+        "implementation_rule": "Project relational coordinates onto the nearest parity coset with minimum Frobenius change.",
+        "real_world_meaning": "Information is carried by relationships among coefficients, not by overwriting isolated pixels."
+      },
+      {
+        "name": "Identity witnesses relation",
+        "mathematical_form": "omega_i = exp(-((log s_i - median(log s)) / sigma)^2)",
+        "implementation_rule": "Use unchanged diagonal-derived spectral scale to gate confidence in damaged coupling evidence.",
+        "real_world_meaning": "The same invariant that was protected during embedding later tells the decoder which evidence to trust."
+      },
+      {
+        "name": "Verify meaning, not resemblance",
+        "mathematical_form": "valid = ECC decode AND CRC AND digital signature",
+        "implementation_rule": "Treat NC as a diagnostic metric; accept real payloads only after ECC decoding, CRC validation, and signature verification.",
+        "real_world_meaning": "A recovered logo that looks similar is weaker evidence than an exactly verified signed record."
+      }
+    ]
+  },
+  "passed": true
+}

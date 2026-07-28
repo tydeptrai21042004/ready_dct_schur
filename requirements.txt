@@ -1,0 +1,7 @@
+numpy>=2.0
+scipy>=1.13
+Pillow>=10.0
+scikit-image>=0.24
+opencv-python-headless>=4.8
+cryptography>=42.0
+pytest>=8.0

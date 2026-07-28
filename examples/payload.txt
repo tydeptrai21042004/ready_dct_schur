@@ -1,0 +1,1 @@
+DCT-Schur carries exact data, not only a binary logo.

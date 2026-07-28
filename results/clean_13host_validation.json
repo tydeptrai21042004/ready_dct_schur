@@ -1,0 +1,130 @@
+{
+  "summary": {
+    "host_count": 13,
+    "mean_psnr_db": 50.37986944218268,
+    "minimum_psnr_db": 50.31224007594147,
+    "mean_clean_nc": 1.0,
+    "all_clean_exact": true,
+    "all_invariants_preserved": true,
+    "mean_coset_energy_ratio": 0.5867707206869128
+  },
+  "rows": [
+    {
+      "host": "Girl.bmp",
+      "psnr_db": 50.35690203200445,
+      "clean_nc": 1.0,
+      "coset_energy_ratio": 0.5920818637962423,
+      "spectrum_preserved": true,
+      "trace_preserved": true,
+      "determinant_preserved": true
+    },
+    {
+      "host": "airplane.bmp",
+      "psnr_db": 50.39044467025376,
+      "clean_nc": 1.0,
+      "coset_energy_ratio": 0.5779784304049512,
+      "spectrum_preserved": true,
+      "trace_preserved": true,
+      "determinant_preserved": true
+    },
+    {
+      "host": "athens.bmp",
+      "psnr_db": 50.338482620350064,
+      "clean_nc": 1.0,
+      "coset_energy_ratio": 0.5821023227710557,
+      "spectrum_preserved": true,
+      "trace_preserved": true,
+      "determinant_preserved": true
+    },
+    {
+      "host": "baboon.bmp",
+      "psnr_db": 50.32651788289441,
+      "clean_nc": 1.0,
+      "coset_energy_ratio": 0.5932484668132145,
+      "spectrum_preserved": true,
+      "trace_preserved": true,
+      "determinant_preserved": true
+    },
+    {
+      "host": "butfly.bmp",
+      "psnr_db": 50.31224007594147,
+      "clean_nc": 1.0,
+      "coset_energy_ratio": 0.5952506878920131,
+      "spectrum_preserved": true,
+      "trace_preserved": true,
+      "determinant_preserved": true
+    },
+    {
+      "host": "house.bmp",
+      "psnr_db": 50.43545297327203,
+      "clean_nc": 1.0,
+      "coset_energy_ratio": 0.5627171169458721,
+      "spectrum_preserved": true,
+      "trace_preserved": true,
+      "determinant_preserved": true
+    },
+    {
+      "host": "lenna.bmp",
+      "psnr_db": 50.38615410342972,
+      "clean_nc": 1.0,
+      "coset_energy_ratio": 0.5822698124928029,
+      "spectrum_preserved": true,
+      "trace_preserved": true,
+      "determinant_preserved": true
+    },
+    {
+      "host": "manhatan.bmp",
+      "psnr_db": 50.38204396558639,
+      "clean_nc": 1.0,
+      "coset_energy_ratio": 0.5811339204837387,
+      "spectrum_preserved": true,
+      "trace_preserved": true,
+      "determinant_preserved": true
+    },
+    {
+      "host": "milkdrop.bmp",
+      "psnr_db": 50.357565925888224,
+      "clean_nc": 1.0,
+      "coset_energy_ratio": 0.5848662992090928,
+      "spectrum_preserved": true,
+      "trace_preserved": true,
+      "determinant_preserved": true
+    },
+    {
+      "host": "pepper.bmp",
+      "psnr_db": 50.40903960766013,
+      "clean_nc": 1.0,
+      "coset_energy_ratio": 0.5947499930588499,
+      "spectrum_preserved": true,
+      "trace_preserved": true,
+      "determinant_preserved": true
+    },
+    {
+      "host": "safari.bmp",
+      "psnr_db": 50.377808008464804,
+      "clean_nc": 1.0,
+      "coset_energy_ratio": 0.5960820742754338,
+      "spectrum_preserved": true,
+      "trace_preserved": true,
+      "determinant_preserved": true
+    },
+    {
+      "host": "sailboat.bmp",
+      "psnr_db": 50.32280223288148,
+      "clean_nc": 1.0,
+      "coset_energy_ratio": 0.5930598502604585,
+      "spectrum_preserved": true,
+      "trace_preserved": true,
+      "determinant_preserved": true
+    },
+    {
+      "host": "tiffany.bmp",
+      "psnr_db": 50.542848649747974,
+      "clean_nc": 1.0,
+      "coset_energy_ratio": 0.5924785305261404,
+      "spectrum_preserved": true,
+      "trace_preserved": true,
+      "determinant_preserved": true
+    }
+  ]
+}
